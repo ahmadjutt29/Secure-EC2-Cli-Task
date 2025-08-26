@@ -1,0 +1,16 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:PutObject",
+        "s3:ListBucket"
+      ],
+      "Resource": [
+        "arn:aws:s3:::mycompany-ec2-logs-20250826",
+        "arn:aws:s3:::mycompany-ec2-logs-20250826/*"
+      ]
+    }
+  ]
+}
